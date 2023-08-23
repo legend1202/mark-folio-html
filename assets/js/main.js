@@ -17,19 +17,19 @@ AOS.init({
 
 const contact = document.querySelector('.contact')
 const contactbtn = document.querySelector('.contact-btn')
-const currentYear = document.querySelector('.current-year')
+// const currentYear = document.querySelector('.current-year')
 
 contact.addEventListener('click', function(){
-window.location.href="mailto:matt.ehrlich93@yahoo.com"
+window.location.href="mailto:markdrake0916@gmail.com"
 })
 
 contactbtn.addEventListener('click', function(){
-window.location.href="mailto:matt.ehrlich93@yahoo.com"
+window.location.href="mailto:markdrake0916@gmail.com"
 })
 
 const year = new Date().getFullYear()
 
-function returnYear(){
-  currentYear.innerHTML = year
-}
-returnYear()
+// function returnYear(){
+//   currentYear.innerHTML = year
+// }
+// returnYear()
